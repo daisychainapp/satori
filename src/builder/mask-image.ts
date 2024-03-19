@@ -40,8 +40,8 @@ export default async function buildMaskImage(
     mask +=
       def +
       buildXMLString('rect', {
-        x: 0,
-        y: 0,
+        x: left,
+        y: top,
         width,
         height,
         fill: `url(#${_id})`,
