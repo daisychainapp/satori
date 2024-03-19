@@ -43,7 +43,7 @@ importers:
         specifier: ^0.4.2
         version: 0.4.2
       '@resvg/resvg-js':
-        specifier: ^2.6.0
+        specifier: ^2.5.0
         version: 2.6.0
       '@types/node':
         specifier: ^16
@@ -2843,7 +2843,6 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -2853,7 +2852,6 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
@@ -2863,7 +2861,6 @@ packages:
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -2873,7 +2870,6 @@ packages:
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
